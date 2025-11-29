@@ -1,0 +1,444 @@
+/* Reset margins, padding, borders */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Remove default anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Reset heading font weight */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+/* Better button styling */
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+
+/* Remove input borders on focus */
+input,
+textarea,
+select {
+  outline: none;
+}
+
+/* For consistent font */
+body {
+
+  background-color: #fff;
+  color: #333;
+}
+
+/* Width of scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; /* horizontal scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* light gray background */
+  border-radius: 10px;
+}
+
+/* Thumb (scroll handle) */
+::-webkit-scrollbar-thumb {
+  background: #ceb894; /* your gold-like color */
+  border-radius: 10px;
+}
+
+/* Thumb hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: #b8956f;
+}
+
+/* Optional: scrollbar corner */
+::-webkit-scrollbar-corner {
+  background: #f0f0f0;
+}
+
+/* header sec start */
+#header {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 5px 0px;
+}
+
+.for-web-view-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo-wrapper img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  filter: invert(5);
+}
+
+.logotext {
+  font-size: 14px;
+
+}
+
+.custom-navbar {
+  height: 100%;
+}
+
+.custom-navbar ul {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+
+}
+
+.custom-navbar ul li {
+  margin: 0px 20px;
+  position: relative;
+  padding-bottom: 5px !important;
+
+
+}
+
+.custom-navbar ul li::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #ceb894;
+  transition: 0.2s;
+  left: 0;
+  bottom: 0;
+
+}
+
+.custom-navbar ul li:hover::after {
+  width: 100%;
+
+}
+
+.custom-nav-link {
+  font-size: 13px !important;
+  color: #ceb894 !important;
+
+  text-decoration: none;
+}
+
+.custom-nav-link:hover {
+
+  color: #ceb894;
+}
+
+.for-mobile-view-nav {
+  display: none;
+}
+
+.mobile-nav button {
+  border: none;
+  font-size: 26px;
+  color: #fff !important;
+}
+
+/* banner sec start */
+.banner-wrapper {
+  position: relative;
+  color: #ceb894;
+  z-index: -1;
+  /* height: 60vh; */
+}
+
+
+.banner-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.6;
+  top: 0;
+
+
+}
+
+
+
+.banner-text-wrapper {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  /* padding-left: 100px; */
+}
+
+.banner-heading {
+  font-size: 3rem;
+  text-wrap: balance;
+  font-family: 'Gilda Display', serif !important;
+}
+
+.banner-sub-heading {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 20px;
+}
+
+/* overview sec start */
+#overview {
+  background-color: rgb(57 57 57);
+  padding: 50px 0px;
+
+}
+
+.section-title {
+  font-family: 'Gilda Display', serif !important;
+  font-size: 2rem;
+  color: #ceb894;
+  margin: 0px;
+}
+
+.section-subtitle {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 13px;
+  text-align: left;
+  color: #dfcfb7;
+  margin-top: 20px;
+}
+
+.overview-img-wrapper {
+  height: 100%;
+
+
+}
+
+.overview-img-wrapper img {
+  height: 100%;
+
+
+}
+
+.my-swiper .swiper-button-prev,
+.my-swiper .swiper-button-next {
+  color: #e4c088 !important;
+  height: 30px;
+  font-weight: bold;
+
+}
+
+.slide-img {
+  width: 100%;
+  height: 330px;
+  position: relative;
+  /* z-index: 1; */
+}
+
+
+
+.my-swiper {
+  border: 3.5px solid #ceb894;
+  position: relative;
+  margin-bottom: 20px;
+  /* z-index: -1; */
+}
+
+.card-swiper-text {
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  background-color: #000000;
+  opacity: 0.6;
+  border-top: 3.5px solid #ceb894;
+}
+
+.card-swiper-text p {
+  margin: 0px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.overview-slider-card {
+  margin-top: 50px !important;
+}
+
+/* legacy sec start */
+
+#legacy {
+  background-image: url(assets/Home/images.jfif);
+  background-attachment: fixed !important;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0px;
+  position: relative;
+  z-index: 1;
+  /* height: 400px; */
+
+}
+
+#legacy::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  top: 0;
+  z-index: -1;
+}
+
+.legacy-image-wrapper img {
+  width: 100%;
+  height: 300px;
+  box-shadow: 0 4px 16px #ceb894,
+    0 8px 32px rgba(224, 224, 224, 0.25);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.enquire-btn {
+  font-family: 'Gilda Display', serif !important;
+  color: #ceb894;
+  background-color: #000000;
+  padding: 10px 20px;
+  border: 2px solid #ceb894;
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+/* footer sec start */
+.simple-footer {
+  background: #111;
+  border-top: 1px solid #ceb894;
+  
+}
+
+.footer-link {
+  color: #ceb894;
+  text-decoration: none;
+  margin: 0 6px;
+  font-size: 15px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-disclaimer {
+  color: #aaa;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  .for-mobile-view-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .for-web-view-nav {
+    display: none;
+  }
+
+  .nav-link {
+    font-size: 20px !important;
+    margin: 20px 0px !important;
+  }
+
+  #mnav {
+    background-color: #000000;
+    width: 60% !important;
+    /* color: #fff; */
+    color: #ceb894;
+    font-weight: bold;
+  }
+
+  .my-close {
+    background-color: #ceb894 !important;
+
+    height: 32px;
+    border-radius: 6px;
+  }
+
+  /* banner sec start */
+  .banner-text-wrapper {
+
+    /* padding: 10px; */
+  }
+
+  .banner-wrapper {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .banner-heading {
+    font-size: 24px;
+
+  }
+
+  .banner-img {
+    height: 100% !important;
+    background-position: center;
+    background-size: cover !important;
+  }
+
+  .banner-sub-heading {
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 14px;
+  }
+
+  .overview-img-wrapper {
+    margin: 20px 0px;
+
+
+  }
+
+  .legacy-image-wrapper img {
+
+    height: 250px;
+
+  }
+}
