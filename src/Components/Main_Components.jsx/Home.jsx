@@ -43,7 +43,7 @@ export default function Home() {
 
     return (
         <>
-            <section id='banner-sec' >
+            <section className='banner-sec' >
                 <div className="banner-wrapper">
 
                     <img className='img-fluid banner-img w-100' src={image} alt=" A master designer's hand from Interior Designer Mumbai
@@ -76,7 +76,7 @@ design firm" />
                 <div className="overview-wrapper container">
                     <div className="row">
                         <div className="col-xl-6">
-                            <div className='sec-title' >
+                            <div className='sec-title-parent' >
                                 <h2 className='section-title' >
                                     Our Ethos
                                 </h2>
@@ -88,7 +88,7 @@ design firm" />
                                     single principle: perfection is not an option; it is the standard. We are
                                     artisans and architects, not just designers. Our work is a profound
                                     dialogue between form and function, light and shadow. We believe true
-                                    luxury is not loud; it is felt—in the weight of a custom-forged handle,
+                                    luxury is not loud; it is felt in the weight of a custom-forged handle,
                                     the precise grain-matching of smoked oak, and the perfect, warm hue of
                                     cinematic light.
                                 </p>
