@@ -43,48 +43,92 @@ export default function Home() {
 
     return (
         <>
-            <section className='banner-sec' >
+            <section className='banner-sec'>
                 <div className="banner-wrapper">
 
-                    <img className='img-fluid banner-img w-100' src={image} alt=" A master designer's hand from Interior Designer Mumbai
-sketching a
-precise architectural blueprint, symbolizing the art and precision of our
-design firm" />
-                    <div className="banner-text-wrapper ">
-                        <div className='row m-0' >
-                            <div className="offset-xl-1 col-xl-6 col-md-10 offset-md-1">
-                                <h1 className='banner-heading' > Where Legacy Meets Vision: Mumbai's Definitive Name in
-                                    Luxury
+                    {/* Background Image */}
+                    <img
+                        className='img-fluid banner-img w-100'
+                        src={image}
+                        alt="A master designer's hand from Interior Designer Mumbai sketching a precise architectural blueprint"
+
+
+                    />
+
+                    <div className="banner-text-wrapper">
+                        <div className='row m-0'>
+                            <div
+                                className="offset-xl-1 col-xl-6 col-md-10 offset-md-1"
+                                data-aos="fade-up"
+                                data-aos-duration="1400"
+                                data-aos-delay="300"
+                            >
+
+                                {/* Heading */}
+                                <h1
+                                    className='banner-heading'
+                                    data-aos="fade-up"
+                                    data-aos-duration="1200"
+                                    data-aos-delay="500"
+                                >
+                                    Where Legacy Meets Vision: Mumbai's Definitive Name in Luxury
                                     Interior Design.
-
-
                                 </h1>
-                                <p className='banner-sub-heading' > We do not simply design spaces. We sculpt environments, curating
-                                    timeless sanctuaries that become an extension of your legacy.</p>
+
+                                {/* Sub text */}
+                                <p
+                                    className='banner-sub-heading'
+                                    data-aos="fade-up"
+                                    data-aos-duration="1200"
+                                    data-aos-delay="700"
+                                >
+                                    We do not simply design spaces. We sculpt environments, curating
+                                    timeless sanctuaries that become an extension of your legacy.
+                                </p>
 
                             </div>
-
-
                         </div>
-
-
                     </div>
-                </div>
 
+                </div>
             </section>
             <section id='overview' >
                 <div className="overview-wrapper container">
                     <div className="row">
-                        <div className="col-xl-6">
-                            <div className='sec-title-parent' >
-                                <h2 className='section-title' >
+
+                        {/* Left Content */}
+                        <div
+                            className="col-xl-6"
+                            data-aos="fade-up"
+                            data-aos-duration="1600"
+                            data-aos-easing="ease-out-cubic"
+                        >
+                            <div className='sec-title-parent'>
+                                <h2
+                                    className='section-title'
+                                    data-aos="fade"
+                                    data-aos-duration="1400"
+                                    data-aos-delay="200"
+                                >
                                     Our Ethos
                                 </h2>
-                                <h3 className='section-title' >
+
+                                <h3
+                                    className='section-title'
+                                    data-aos="fade"
+                                    data-aos-duration="1400"
+                                    data-aos-delay="350"
+                                >
                                     Design as an Art Form
                                 </h3>
-                                <p className='section-subtitle' >For
-                                    decades, our studio, Interior Designer Mumbai, has operated on a
+
+                                <p
+                                    className='section-subtitle'
+                                    data-aos="fade"
+                                    data-aos-duration="1500"
+                                    data-aos-delay="500"
+                                >
+                                    For decades, our studio, Interior Designer Mumbai, has operated on a
                                     single principle: perfection is not an option; it is the standard. We are
                                     artisans and architects, not just designers. Our work is a profound
                                     dialogue between form and function, light and shadow. We believe true
@@ -93,18 +137,21 @@ design firm" />
                                     cinematic light.
                                 </p>
                             </div>
-
                         </div>
-                        <div className="col-xl-3">
+
+                        {/* Middle Content */}
+                        <div
+                            className="col-xl-3"
+                            data-aos="fade-up"
+                            data-aos-duration="1600"
+                            data-aos-delay="300"
+                            data-aos-easing="ease-out-cubic"
+                        >
                             <div>
-                                <h2 className='section-title' >
-                                    A Legacy in
-                                </h2>
-                                <h3 className='section-title' >
-                                    Form: Our Signature Works
-                                </h3>
-                                <p className='section-subtitle' >For
-                                    decades, our studio, Interior Designer Mumbai, has operated on a
+                                <h2 className='section-title'>A Legacy in</h2>
+                                <h3 className='section-title'>Form: Our Signature Works</h3>
+                                <p className='section-subtitle'>
+                                    For decades, our studio, Interior Designer Mumbai, has operated on a
                                     single principle: perfection is not an option; it is the standard. We are
                                     artisans and architects, not just designers. Our work is a profound
                                     dialogue between form and function, light and shadow. We believe true
@@ -113,15 +160,21 @@ design firm" />
                                     cinematic light.
                                 </p>
                             </div>
-
-
                         </div>
-                        <div className="col-xl-3">
+
+                        {/* Image */}
+                        <div
+                            className="col-xl-3"
+                            data-aos="fade"
+                            data-aos-duration="1800"
+                            data-aos-delay="500"
+                            data-aos-easing="ease-out-cubic"
+                        >
                             <div className="overview-img-wrapper mt-sm-2">
                                 <img src={overviewimg} alt="" />
                             </div>
-
                         </div>
+
                     </div>
                     <div className="overview-slider-card">
                         <div className="row">
@@ -262,46 +315,77 @@ design firm" />
                 </div>
 
             </section>
-            <section id='legacy' >
+            <section id='legacy'>
                 <div className="legacy-wrapper container">
                     <div className="row">
-                        <div className="col-md-8">
+
+                        {/* Text Side */}
+                        <div
+                            className="col-md-8"
+                            data-aos="fade-up"
+                            data-aos-duration="1600"
+                            data-aos-easing="ease-out-cubic"
+                        >
                             <div className="legacy-text-wrapper d-flex align-items-center h-100">
                                 <div className="row">
-                                    <div className="col-xl-7 ">
+                                    <div className="col-xl-7">
                                         <div>
-                                            <h2 className='section-title' >
+
+                                            <h2
+                                                className='section-title'
+                                                data-aos="fade"
+                                                data-aos-duration="1400"
+                                                data-aos-delay="200"
+                                            >
                                                 Commission Your Legacy
                                             </h2>
 
-                                            <p className='section-subtitle' >For
-                                                process is one of selective partnership. We invite you to begin the
-                                                conversation with Interior Designer Mumbai. Let us explore how we can
-                                                translate your singular vision into a timeless masterpiece.
+                                            <p
+                                                className='section-subtitle'
+                                                data-aos="fade"
+                                                data-aos-duration="1500"
+                                                data-aos-delay="350"
+                                            >
+                                                For process is one of selective partnership. We invite you to
+                                                begin the conversation with Interior Designer Mumbai. Let us
+                                                explore how we can translate your singular vision into a
+                                                timeless masterpiece.
                                             </p>
-                                            <div className='enquire-btn-wrapper' >
-                                                <button className='enquire-btn' >
+
+                                            <div
+                                                className='enquire-btn-wrapper'
+                                                data-aos="fade"
+                                                data-aos-duration="1400"
+                                                data-aos-delay="500"
+                                            >
+                                                <button className='enquire-btn'>
                                                     Enquire Now
                                                 </button>
-
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+
+                        {/* Image Side */}
+                        <div
+                            className="col-md-4"
+                            data-aos="fade"
+                            data-aos-duration="1800"
+                            data-aos-delay="400"
+                            data-aos-easing="ease-out-cubic"
+                        >
                             <div className="legacy-image-wrapper">
                                 <img src={lagacyimage} alt="" />
                             </div>
-
-
                         </div>
 
                     </div>
                 </div>
-
             </section>
+
         </>
     )
 }
