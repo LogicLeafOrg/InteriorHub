@@ -60,6 +60,7 @@ body {
 
   background-color: #fff;
   color: #333;
+  font-family: 'Libre Caslon Text', serif !important;
 }
 
 /* Width of scrollbar */
@@ -464,7 +465,21 @@ border-top: 1px solid #ceb894;
 .about-legacy-text-wrapper{
   padding: 50px 20px;
 }
+/* about sec end
+ */
+ /* services sec start */
+ #our-feilds{
+  background-color: rgb(57 57 57);
+  color: #fff;
+  padding: 50px 0px;
+ }
+  #our-feilds .section-title{
+    color: #fff;
+  }
 @media (max-width: 768px) {
+  .section-subtitle{
+    font-size: 15px;
+  }
   .for-mobile-view-nav {
     display: flex;
     justify-content: space-between;
@@ -502,7 +517,7 @@ border-top: 1px solid #ceb894;
 
   .banner-wrapper {
     width: 100%;
-    height: 50vh;
+    height: 80vh;
   }
 
   .banner-heading {
@@ -519,7 +534,7 @@ border-top: 1px solid #ceb894;
 
   .banner-sub-heading {
     font-family: 'Libre Caslon Text', serif;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .overview-img-wrapper {
