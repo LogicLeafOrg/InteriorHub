@@ -18,7 +18,7 @@ export default function Header() {
                         <nav className='custom-navbar' >
                             <ul>
                                 <li>
-                                    <Link className='custom-nav-link' to="">HOME</Link>
+                                    <Link className='custom-nav-link' to="">Home</Link>
                                 </li>
                                 <li>
                                     <Link className='custom-nav-link' to="/services">Services</Link>
@@ -27,7 +27,7 @@ export default function Header() {
                                     <Link className='custom-nav-link' to="/about">About</Link>
                                 </li>
                                 <li>
-                                    <Link className='custom-nav-link' to="/portfolio">PORTFOLIO</Link>
+                                    <Link className='custom-nav-link' to="/portfolio">Portfolio</Link>
                                 </li>
                                 <li>
                                     <Link className='custom-nav-link' to="/contact">Contact</Link>
